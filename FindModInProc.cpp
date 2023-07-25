@@ -3,6 +3,7 @@
 #include <TlHelp32.h>
 #include <cstring>
 
+// usage: name.exe pid <hex>address
 int main(int argc, char** argv)
 {
 	const DWORD dwPid = atoi(argv[1]);
